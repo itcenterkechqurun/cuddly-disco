@@ -1,0 +1,37 @@
+.btn {
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: 1px solid rgb(98, 0, 189);
+    font-style: normal;
+    background-color: rgb(98, 0, 189);
+    color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+
+.btn:hover {
+    background-color: white;
+    color:rgb(98, 0, 189);
+    
+}
+
+.transformed {
+    margin-top: 10rem;
+}  
+
+.transformed > div {
+    width: 10rem;
+    height: 5rem;
+    background-color: rgb(98, 0, 189);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    transition: all 1s cubic-bezier(0,1.9,1,-1.7);
+}
+
+.transformed:hover > div {
+    transform: translateX(20rem);
+}  
