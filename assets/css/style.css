@@ -103,6 +103,38 @@
 
 
 /* 4 block start */
+.logo {
+    font-family: PT Sans Narrow;
+   margin-top: 85px;
+   margin-bottom: 95px;
+   margin-left: 61px;
+}
+.svg {
+    width: 64px;
+    height: 64px;
+    margin-left: 1200px;
+}
+.img {
+    margin-bottom: 25px;
+}
+.block1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card1 {
+    margin-bottom: 25px;
+}
+.text {
+    font-family: PT Sans Narrow;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36.23px;
+}
+.big {
+    margin-top: 85px;
+}
 .footer-container {
     display: flex;
     justify-content: space-around;
