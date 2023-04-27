@@ -6,7 +6,6 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'PT Sans Narrow';
-
 }
 
 .container {
@@ -33,6 +32,228 @@
 
 /* umumiy stylelar tugadi */
 /* 1 block uchun */
+.logo {}
+
+.h1 {
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    left: 900px;
+    top: 59px;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F1F1F;
+}
+
+.h2 {
+    position: absolute;
+    width: 89px;
+    height: 26px;
+    left: 1100px;
+    top: 59px;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F1F1F;
+}
+
+.h3 {
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 1300px;
+    top: 59px;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F1F1F;
+}
+
+.h4 {
+    position: absolute;
+    width: 79px;
+    height: 26px;
+    left: 1500px;
+    top: 59px;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F1F1F;
+}
+
+.text-block1 {
+    position: absolute;
+    width: 85px;
+    height: 36px;
+    left: 60px;
+    top: 285px;
+    color: #398495;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 28px;
+    line-height: 36.23px;
+}
+
+.text-block2 {
+    position: absolute;
+    width: 560px;
+    height: 144px;
+    left: 60px;
+    top: 300px;
+    font-family: Sulphur Point;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.web-color {
+    color: #3BB372;
+}
+
+.text-block3 {
+    position: absolute;
+    width: 560px;
+    height: 96px;
+    left: 60px;
+    top: 480px;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #393939;
+}
+
+.btn-1 {
+    position: absolute;
+    width: 103px;
+    height: 47px;
+    left: 1675px;
+    top: 65px;
+    background: #3BB372;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    position: absolute;
+    width: 185.98px;
+    height: 41px;
+    left: 60px;
+    top: 665px;
+    background: #3BB372;
+    border-radius: 5px;
+
+}
+
+.btn-3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 185.98px;
+    height: 41px;
+    left: 250px;
+    top: 665px;
+    border: 2px solid #398495;
+    border-radius: 5px;
+}
+
+.svg-1 {
+    position: absolute;
+    width: 212.38px;
+    height: 531.98px;
+    left: 1060px;
+    top: 247.17px;
+    background: url(unnamed.jpg);
+    border-radius: 25px;
+}
+
+.svg-2 {
+    position: absolute;
+    width: 212.38px;
+    height: 549.89px;
+    left: 1280px;
+    top: 165px;
+    background: url(unnamed.jpg);
+    border-radius: 25px;
+}
+
+.svg-3 {
+    position: absolute;
+    width: 212.38px;
+    height: 531.98px;
+    left: 1500px;
+    top: 247.17px;
+    background: url(unnamed.jpg);
+    border-radius: 25px;
+}
+
+.svg_1 {
+    position: absolute;
+    width: 385px;
+    height: 332px;
+    left: -84px;
+    top: -58px;
+}
+
+.svg_2 {
+    position: absolute;
+    width: 241.5px;
+    height: 223.46px;
+    left: 800px;
+    top: 0px;
+}
+
+.svg_3 {
+    position: absolute;
+    width: 241.5px;
+    height: 207.5px;
+    left: 1590px;
+    top: 60px;
+}
+
+.svg_4 {
+    position: absolute;
+    width: 235.86px;
+    height: 207.5px;
+    left: 975px;
+    top: 181px;
+}
+
+.svg_5 {
+    position: absolute;
+    width: 235.86px;
+    height: 207.5px;
+    left: 1375px;
+    top: 675px;
+}
+
+.svg_6 {
+    position: absolute;
+    width: 627.98px;
+    height: 229px;
+    left: 9.28px;
+    top: 420px;
+
+    background: linear-gradient(), #EAFFF3;
+}
+
+.svg_7 {
+    position: absolute;
+    width: 410.64px;
+    height: 262.5px;
+    left: 77.3px;
+    top: 690px;
+
+}
 
 /* 1 blokc */
 
@@ -116,7 +337,7 @@
 
 
 /* 3 block start */
-
+/* 
 .card-blue,
 .card-green {
     border-radius: 25px;
