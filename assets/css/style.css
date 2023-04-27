@@ -38,7 +38,102 @@
 
 
 /* 2 block start  */
+.header {
+    display: flex;
+    gap: 10px;
+    width: auto;
+    height: auto;
+}
 
+.header1 {
+    display: flex;
+}
+
+.header2 {
+    display: flex;
+}
+
+.header3 {
+    display: flex;
+}
+
+.blok1 {
+    width: 40px;
+    height: 40px;
+}
+
+.flex {
+    display: flex;
+    gap: unset;
+}
+
+.flex2 {
+    display: flex;
+    height: 51px;
+    width: 353px;
+    left: 795px;
+    top: 1117px;
+    border-radius: 5px;
+
+}
+
+.a {
+    transform: translate(40px, 40px);
+}
+
+.body {
+    width: 1437px;
+    Height: 1181px;
+    Top: 838px;
+    background-image: url("../img/Slice\ 1.png");
+    justify-content: center;
+    padding: 20px;
+}
+
+.test {
+    Width: 508px;
+    Height: 443px;
+    Top: 725px;
+    Left: 795px;
+}
+
+.button1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 185.98px;
+    height: 41px;
+    left: 810px;
+    top: 1070px;
+    border-radius: 7px 7px 7px 100px;
+
+    transform: matrix(1, 0, 0, -1, 0, );
+}
+
+.button2 {
+    justify-content: center;
+    position: absolute;
+    width: 185.98px;
+    height: 41px;
+    left: 665px;
+    top: 1070px;
+    background: #3BB372;
+    transform: translate( -10px 90px  );
+    border-radius: 7px 100px 7px 7px;
+}
+ 
+
+.a2 {
+    height: 280px;
+    width: 496px;
+    left: 807px;
+    top: 808px;
+    border-radius: 20px;
+
+}
+
+.b1 {
+    transform: translate(20px, 20px);
+}
 /* 2 block end */
 
 
