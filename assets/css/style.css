@@ -109,7 +109,7 @@
     margin-top: 10rem;
 }
 
-.font-size {
+p>*>a {
     font-size: 18px;
     font-weight: 400;
     line-height: 23.29px;
@@ -122,7 +122,11 @@
 }
 
 .background {
-    background-image: url("../css/images/Rectangle\ 19.jpg");
+    background-image: url('/assets/css/Rectangle 19.jpg');
+}
+.button{
+    color: #398495;
+    border-radius: 5px;
 }
 
 /* 4 block end */
