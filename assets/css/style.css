@@ -236,5 +236,11 @@ p>a {
     height: 1px;
     background: linear-gradient(-90deg, #BAE8E5 0%, rgba(255, 255, 255, 0) 85.83%), #398495;
 }
+.contact{
+    justify-content: end;
+    display: flex;
+    margin: 15px;
+}
+
 
 /* 4 block end */
