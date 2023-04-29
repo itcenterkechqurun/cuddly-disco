@@ -39,6 +39,79 @@
 
 /* 2 block start  */
 
+.carousel {
+    display: flex;
+    gap: 4px;
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .carousel {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .carousel-item {
+        scroll-snap-align: center;
+        min-width: 400px;
+    }
+}
+
+.carousel-item {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    padding: 8px;
+    border-radius: 12px;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 640px) {
+    .carousel-item {
+        max-width: calc(100vw - 20px);
+        flex-direction: column;
+        min-width: auto;
+        text-align: center;
+    }
+}
+
+.carousel-item:hover {
+    box-shadow: 0 0 8px 4px #1f1f1f89;    
+}
+.carousel-item .description {
+    font-size: 24px;
+    font-family: "PT Sans Narrow";
+    color: #393939;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+.carousel-item .description p {
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.carousel-item:hover .description p {
+    display: -webkit-box;
+    line-clamp: auto;
+    -webkit-line-clamp: auto;
+    -webkit-box-orient: inline-axis;  
+    overflow: visible;
+}
+
+.carousel-item .description h3 {
+    font-size: 28px;
+    font-family: "PT Sans Narrow";
+    color: #1f1f1f;
+}
+
 /* 2 block end */
 
 
